@@ -1,6 +1,13 @@
 {
-    "name": "orion76/dimport",
-    "description": "Data import drupal8 module",
-    "type": "project",
-    "require": {}
+    "name": "dimport",
+    "type": "drupal-module",
+    "description": "Drupal 8 data import",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/dimport",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/dimport",
+        "source": "http://cgit.drupalcode.org/dimport",
+    },
 }
