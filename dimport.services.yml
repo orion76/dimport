@@ -1,0 +1,22 @@
+services:
+  plugin.manager.dimport_fetcher:
+    class: Drupal\dimport\import\fetcher\DimportFetcherManager
+    parent: default_plugin_manager
+  plugin.manager.dimport_config:
+    class: Drupal\dimport\import\config\DimportConfigManager
+    parent: default_plugin_manager
+  plugin.manager.dimport_destination:
+    class: Drupal\dimport\import\destination\DimportDestinationManager
+    parent: default_plugin_manager
+  plugin.manager.dimport_parser:
+    class: Drupal\dimport\import\parser\DimportParserManager
+    parent: default_plugin_manager
+  plugin.manager.dimport_process:
+    class: Drupal\dimport\import\process\DimportProcessManager
+    parent: default_plugin_manager
+  plugin.manager.dimport_sync:
+    class: Drupal\dimport\import\sync\DimportSyncManager
+    parent: default_plugin_manager
+  plugin.manager.dimport_queue:
+    class: Drupal\dimport\import\queue\DimportQueueManager
+    parent: default_plugin_manager
