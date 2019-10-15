@@ -1,0 +1,10 @@
+entity.dimport_source.add_form:
+  route_name: entity.dimport_source.add_form
+  title: 'Add Source'
+  appears_on:
+    - entity.dimport_source.collection
+entity.dimport_bundle.add_form:
+  route_name: entity.dimport_bundle.add_form
+  title: 'Add Bundle'
+  appears_on:
+    - entity.dimport_bundle.collection

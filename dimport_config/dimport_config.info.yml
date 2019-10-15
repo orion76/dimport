@@ -1,0 +1,5 @@
+name: 'dimport_config'
+type: module
+description: 'Dimport config module'
+core: 8.x
+package: 'dimport'

@@ -1,0 +1,13 @@
+{
+    "name": "dimport_config",
+    "type": "drupal-module",
+    "description": "Dimport config module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/dimport_config",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/dimport_config",
+        "source": "http://cgit.drupalcode.org/dimport_config"
+    }
+}

@@ -2,4 +2,6 @@ name: 'dimport'
 type: module
 description: 'Drupal 8 data import'
 core: 8.x
-package: 'gpb'
+package: 'dimport'
+dependencies:
+  - dimport_config

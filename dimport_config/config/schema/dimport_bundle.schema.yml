@@ -1,0 +1,15 @@
+dimport_config.dimport_bundle.*:
+  type: config_entity
+  label: 'Bundle config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    source:
+      type: string
+      label: 'Source'

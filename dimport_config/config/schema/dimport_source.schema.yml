@@ -1,0 +1,38 @@
+dimport_config.import_plugin.config:
+  type: mapping
+  label: 'Import plugin config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    plugin_type:
+      type: string
+    dependencies:
+      type: sequence
+      label: 'Dependencies'
+      sequence:
+        type: string
+dimport_config.dimport_source.*:
+  type: config_entity
+  label: 'Source config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    import_plugins:
+      type: sequence
+      label: 'Plugins'
+      sequence:
+        type: dimport_config.import_plugin.config
+    queue_config:
+      type: dimport_config.import_plugin.config
