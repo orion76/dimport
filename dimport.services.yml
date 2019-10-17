@@ -26,6 +26,11 @@ services:
   logger.channel.dimport:
     parent: logger.channel_base
     arguments: ['dimport']
+
   dimport:
     class: Drupal\dimport\DimportServiceFactory
     arguments: ['@config.factory']
+
+  plugin.manager.dimport_plugin_types:
+    class: Drupal\dimport\DimportPluginTypeManager
+    arguments: ['@module_handler', '@cache.discovery']

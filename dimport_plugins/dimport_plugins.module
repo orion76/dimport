@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains dimport_plugins.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function dimport_plugins_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the dimport_plugins module.
+    case 'help.page.dimport_plugins':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Dimport plugins collection') . '</p>';
+      return $output;
+
+    default:
+  }
+}

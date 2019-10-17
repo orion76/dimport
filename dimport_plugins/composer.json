@@ -1,0 +1,13 @@
+{
+    "name": "dimport_plugins",
+    "type": "drupal-module",
+    "description": "Dimport plugins collection",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/dimport_plugins",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/dimport_plugins",
+        "source": "http://cgit.drupalcode.org/dimport_plugins",
+    },
+}

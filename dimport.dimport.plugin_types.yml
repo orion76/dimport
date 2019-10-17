@@ -1,0 +1,23 @@
+# Example dimport_plugin plugin definitions.
+# Plugin property $defaults are defined in DimportPluginManager.
+dimport.plugin_type.dimport_config:
+  id: dimport_config
+  label: Config
+dimport.plugin_type.dimport_fetcher:
+  id: dimport_fetcher
+  label: Fetcher
+dimport.plugin_type.dimport_parser:
+  id: dimport_parser
+  label: Parser
+dimport.plugin_type.dimport_process:
+  id: dimport_process
+  label: Process
+dimport.plugin_type.dimport_destination:
+  id: dimport_destination
+  label: Destination
+dimport.plugin_type.dimport_sync:
+  id: dimport_sync
+  label: Sinc
+dimport.plugin_type.dimport_queue:
+  id: dimport_queue
+  label: Queue

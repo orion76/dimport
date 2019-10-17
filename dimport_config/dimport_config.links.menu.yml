@@ -4,13 +4,6 @@ entity.dimport_source.collection:
   title: 'Source'
   route_name: entity.dimport_source.collection
   description: 'List Source (bundles)'
-  parent: system.admin_structure
+  parent: dimport.admin.page_root
   weight: 99
 
-# Bundle menu items definition
-entity.dimport_bundle.collection:
-  title: 'Bundle'
-  route_name: entity.dimport_bundle.collection
-  description: 'List Bundle (bundles)'
-  parent: system.admin_structure
-  weight: 99

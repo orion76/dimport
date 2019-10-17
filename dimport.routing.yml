@@ -1,0 +1,8 @@
+
+dimport.admin.page_root:
+  path: '/admin/structure/dimport'
+  defaults:
+    _controller: '\Drupal\dimport\Controller\DimportController::pageRoot'
+    _title: 'Dimport'
+  requirements:
+    _permission: 'access content'

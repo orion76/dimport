@@ -1,0 +1,8 @@
+
+# Source menu items definition
+dimport.admin.page_root:
+  title: 'Dimport'
+  route_name: dimport.admin.page_root
+  description: 'Dimport tools'
+  parent: system.admin_structure
+  weight: 99

@@ -7,7 +7,7 @@ use Drupal\Component\Annotation\Plugin;
 /**
  * Defines a Dimport sync item annotation object.
  *
- * @see \Drupal\dimport\Plugin\DimportSyncManager
+ * @see \Drupal\dimport\Annotation\DimportSyncManager
  * @see plugin_api
  *
  * @Annotation

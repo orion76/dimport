@@ -7,7 +7,7 @@ use Drupal\Component\Annotation\Plugin;
 /**
  * Defines a Dimport destination item annotation object.
  *
- * @see \Drupal\dimport\Plugin\DimportDestinationManager
+ * @see \Drupal\dimport\Annotation\DimportDestinationManager
  * @see plugin_api
  *
  * @Annotation

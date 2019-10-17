@@ -7,7 +7,7 @@ use Drupal\Component\Annotation\Plugin;
 /**
  * Defines a Dimport parser item annotation object.
  *
- * @see \Drupal\dimport\Plugin\DimportParserManager
+ * @see \Drupal\dimport\Annotation\DimportParserManager
  * @see plugin_api
  *
  * @Annotation

@@ -7,7 +7,7 @@ use Drupal\Component\Annotation\Plugin;
 /**
  * Defines a Dimport queue item annotation object.
  *
- * @see \Drupal\dimport\Plugin\DimportQueueManager
+ * @see \Drupal\dimport\Annotation\DimportQueueManager
  * @see plugin_api
  *
  * @Annotation

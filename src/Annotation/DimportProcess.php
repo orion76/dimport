@@ -7,7 +7,7 @@ use Drupal\Component\Annotation\Plugin;
 /**
  * Defines a Dimport process item annotation object.
  *
- * @see \Drupal\dimport\Plugin\DimportProcessManager
+ * @see \Drupal\dimport\Annotation\DimportProcessManager
  * @see plugin_api
  *
  * @Annotation

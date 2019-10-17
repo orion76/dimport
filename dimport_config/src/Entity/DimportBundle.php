@@ -31,13 +31,14 @@ use Drupal\Core\Config\Entity\ConfigEntityBase;
  *     "uuid" = "uuid"
  *   },
  *   links = {
- *     "canonical" = "/admin/structure/dimport/dimport_bundle/{dimport_bundle}",
- *     "add-form" = "/admin/structure/dimport/dimport_bundle/add",
- *     "edit-form" = "/admin/structure/dimport/dimport_bundle/{dimport_bundle}/edit",
- *     "delete-form" = "/admin/structure/dimport/dimport_bundle/{dimport_bundle}/delete",
- *     "collection" = "/admin/structure/dimport/dimport_bundle"
+ *     "canonical" = "/admin/structure/dimport/dimport_source/{dimport_source}/{dimport_bundle}/view",
+ *     "add-form" = "/admin/structure/dimport/dimport_source/{dimport_source}/add_bundle",
+ *     "edit-form" = "/admin/structure/dimport/dimport_source/{dimport_source}/{dimport_bundle}/edit",
+ *     "delete-form" = "/admin/structure/dimport/dimport_source/{dimport_source}/{dimport_bundle}/delete",
  *   }
  * )
+ *
+ *  *     "collection" = "/admin/structure/dimport/dimport_source/{dimport_source}/bundles"
  */
 class DimportBundle extends ConfigEntityBase implements DimportBundleInterface {
 

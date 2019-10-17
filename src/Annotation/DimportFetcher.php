@@ -7,7 +7,7 @@ use Drupal\Component\Annotation\Plugin;
 /**
  * Defines a dimport Fetcher item annotation object.
  *
- * @see \Drupal\dimport\Plugin\DimportFetcherManager
+ * @see \Drupal\dimport\Annotation\DimportFetcherManager
  * @see plugin_api
  *
  * @Annotation
